@@ -1885,6 +1885,9 @@ func getAutodetectionMethod(ad *operatorv1.NodeAddressAutodetection) string {
 			if *ad.Kubernetes == operatorv1.NodeInternalIP {
 				return "kubernetes-internal-ip"
 			}
+			if *ad.Kubernetes == operatorv1.NodeExternalIP {
+				return "kubernetes-external-ip"
+			}
 		}
 	}
 	return ""

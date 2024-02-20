@@ -1442,6 +1442,7 @@ spec:
                           based on the Kubernetes API.
                         enum:
                         - NodeInternalIP
+                        - NodeExternalIP
                         type: string
                       skipInterface:
                         description: SkipInterface enables IP auto-detection based
@@ -1478,6 +1479,7 @@ spec:
                           based on the Kubernetes API.
                         enum:
                         - NodeInternalIP
+                        - NodeExternalIP
                         type: string
                       skipInterface:
                         description: SkipInterface enables IP auto-detection based
@@ -10574,6 +10576,7 @@ spec:
                               addresses based on the Kubernetes API.
                             enum:
                             - NodeInternalIP
+                            - NodeExternalIP
                             type: string
                           skipInterface:
                             description: SkipInterface enables IP auto-detection based
@@ -10611,6 +10614,7 @@ spec:
                               addresses based on the Kubernetes API.
                             enum:
                             - NodeInternalIP
+                            - NodeExternalIP
                             type: string
                           skipInterface:
                             description: SkipInterface enables IP auto-detection based
